@@ -5083,7 +5083,7 @@ async function ui_text_dump (text) {
 // USER-FACING FUNCTIONALITY
 
 function hide_mapped () { jq1().then($ => mapped_dropdowns($).closest('tr').hide()) }
-function show_mapped () { jql().then($ => mapped_dropdowns($).closest('tr').show()) }
+function show_mapped () { jq1().then($ => mapped_dropdowns($).closest('tr').show()) }
 
 function sanity_check () {
   jq1().then($ => {
