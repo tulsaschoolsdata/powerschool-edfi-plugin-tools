@@ -54,22 +54,22 @@ const CODESET_MAPPINGS = [
   { codeset: 'Attendance Event Categories', code: 'U', value: 'Unexcused Absence' },
   { codeset: 'Attendance Event Categories', code: 'W', value: 'Excused Absence' },
   { codeset: 'Behavior Categories', code: '101 INAPPROPRIATE DRESS', value: 'School Violation' },
-  { codeset: 'Behavior Categories', code: '102 INAPPROPRIATE PERSONAL PROPERTY', value: 'School Violation' },
+  { codeset: 'Behavior Categories', code: '102 INAPPROPRIATE PERSONAL PRO', value: 'School Violation' },
   { codeset: 'Behavior Categories', code: '103 GANG SYMBOLS', value: 'School Violation' },
   { codeset: 'Behavior Categories', code: '104 TARDINESS', value: 'School Violation' },
   { codeset: 'Behavior Categories', code: '105 GAMBLING', value: 'School Violation' },
   { codeset: 'Behavior Categories', code: '106 INSUBORDINATION', value: 'School Violation' },
-  { codeset: 'Behavior Categories', code: '107 VERBAL/NON-VERBAL PROFANITY', value: 'School Violation' },
+  { codeset: 'Behavior Categories', code: '107 VERBAL/NON-VERBAL PROFANIT', value: 'School Violation' },
   { codeset: 'Behavior Categories', code: '108 DISRESPECT', value: 'School Violation' },
-  { codeset: 'Behavior Categories', code: '109 FAILURE TO FOLLOW CLASS RULES', value: 'School Violation' },
-  { codeset: 'Behavior Categories', code: '110 ACADEMIC DISHONESTY/CHEATING', value: 'School Violation' },
+  { codeset: 'Behavior Categories', code: '109 FAILURE TO FOLLOW CLASS RU', value: 'School Violation' },
+  { codeset: 'Behavior Categories', code: '110 ACADEMIC DISHONESTY/CHEATI', value: 'School Violation' },
   { codeset: 'Behavior Categories', code: '111 SKIPPING OR CUTTING CLASS', value: 'School Violation' },
   { codeset: 'Behavior Categories', code: '112 TRUANCY', value: 'School Violation' },
-  { codeset: 'Behavior Categories', code: '200 PERSISTENT VIOLATION OF 100 LEVEL BEHAVIORS', value: 'State Offense' },
-  { codeset: 'Behavior Categories', code: '201 IMPROPER USE OF TECHNOLOGY/COMPUTERS', value: 'State Offense' },
-  { codeset: 'Behavior Categories', code: '201 INAPPROPRIATE USE OF TECH/COMPUTERS', value: 'State Offense' },
+  { codeset: 'Behavior Categories', code: '200 PERSISTENT VIOLATION OF 10', value: 'State Offense' },
+  { codeset: 'Behavior Categories', code: '201 IMPROPER USE OF TECHNOLOGY', value: 'State Offense' },
+  { codeset: 'Behavior Categories', code: '201 INAPPROPRIATE USE OF TECH/', value: 'State Offense' },
   { codeset: 'Behavior Categories', code: '202 BULLYING', value: 'State Offense' },
-  { codeset: 'Behavior Categories', code: '203 SMOKING OR USE OF SMOKELESS TOBACCO OR E-CIGARETTES', value: 'State Offense' },
+  { codeset: 'Behavior Categories', code: '203 SMOKING OR USE OF SMOKELES', value: 'State Offense' },
   { codeset: 'Behavior Categories', code: '205 PROHIBITED CLUB/GANG PARTICIPATION', value: 'State Offense' },
   { codeset: 'Behavior Categories', code: '206 CONSPIRACY', value: 'State Offense' },
   { codeset: 'Behavior Categories', code: '207 POSSESS STOLEN PROP', value: 'State Offense' },
@@ -144,12 +144,12 @@ const CODESET_MAPPINGS = [
   { codeset: 'Disciplines', code: 'COUNSELING', value: 'Other' },
   { codeset: 'Disciplines', code: 'DETENTION', value: 'Other' },
   { codeset: 'Disciplines', code: 'PARENT CONFERENCE', value: 'Other' },
-  { codeset: 'Disciplines', code: 'PARENT/GUARDIAN CONFERENCE REQUIRED', value: 'Other' },
+  { codeset: 'Disciplines', code: 'PARENT/GUARDIAN CONFERENCE REQ', value: 'Other' },
   { codeset: 'Disciplines', code: 'PARENT/TEACHER CONF.', value: 'Other' },
   { codeset: 'Disciplines', code: 'PLACEMENT', value: 'Other' },
   { codeset: 'Disciplines', code: 'REMEDIATION', value: 'Other' },
   { codeset: 'Disciplines', code: 'RESTORATIVE CONFERENCE', value: 'Other' },
-  { codeset: 'Disciplines', code: 'REVIEW OF SCHOOL RULES/POLICIES', value: 'Other' },
+  { codeset: 'Disciplines', code: 'REVIEW OF SCHOOL RULES/POLICIE', value: 'Other' },
   { codeset: 'Disciplines', code: 'SATURDAY DETENTION', value: 'Other' },
   { codeset: 'Disciplines', code: 'SCH. INTERVENTION', value: 'Other' },
   { codeset: 'Disciplines', code: 'SCH. SITE CONTRACT', value: 'Other' },
@@ -239,7 +239,7 @@ const CODESET_MAPPINGS = [
   { codeset: 'Grading Periods', code: 'T1', value: 'First Nine Weeks' },
   { codeset: 'Grading Periods', code: 'T2', value: 'Second Nine Weeks' },
   { codeset: 'Graduation Plan Codes', code: 'Core', value: 'Standard' },
-  { codeset: 'Graduation Plan Codes', code: 'Oklahoma Academic Scholar (Foreign Lang)', value: 'Distinguished' },
+  { codeset: 'Graduation Plan Codes', code: 'Oklahoma Academic Scholar (For', value: 'Distinguished' },
   { codeset: 'Languages', code: 'aar', value: 'Other' },
   { codeset: 'Languages', code: 'afr', value: 'Afrikaans' },
   { codeset: 'Languages', code: 'amh', value: 'Amharic' },
@@ -406,11 +406,11 @@ const CODESET_MAPPINGS = [
   { codeset: 'Program Types', code: 'Homebase Int. Pregnancy', value: 'Home Visiting' },
   { codeset: 'Program Types', code: 'Homebase Int. Suspension', value: 'Home Visiting' },
   { codeset: 'Program Types', code: 'Homebased Int. Compensatory', value: 'Home Visiting' },
-  { codeset: 'Program Types', code: 'HOMEBASED PENDING DOCTOR DOCUMENTATION', value: 'Home Visiting' },
-  { codeset: 'Program Types', code: 'HOMEBASED PENDING PARENT RESPONSE TO APPT REQUEST', value: 'Home Visiting' },
-  { codeset: 'Program Types', code: 'HOMEBASED PENDING PARENT SUBMITTING APPLICATION', value: 'Home Visiting' },
-  { codeset: 'Program Types', code: 'HOMEBASED PENDING SCHOOL DOCUMENTATION', value: 'Home Visiting' },
-  { codeset: 'Program Types', code: 'HOMEBASED PENDING TEACHER ASSIGNMENT', value: 'Home Visiting' },
+  { codeset: 'Program Types', code: 'HOMEBASED PENDING DOCTOR DOCUM', value: 'Home Visiting' },
+  { codeset: 'Program Types', code: 'HOMEBASED PENDING PARENT RESPO', value: 'Home Visiting' },
+  { codeset: 'Program Types', code: 'HOMEBASED PENDING PARENT SUBMI', value: 'Home Visiting' },
+  { codeset: 'Program Types', code: 'HOMEBASED PENDING SCHOOL DOCUM', value: 'Home Visiting' },
+  { codeset: 'Program Types', code: 'HOMEBASED PENDING TEACHER ASSI', value: 'Home Visiting' },
   { codeset: 'Program Types', code: 'Multilingual Programs', value: 'Bilingual' },
   { codeset: 'Program Types', code: 'Residential Setting', value: 'Other' },
   { codeset: 'Program Types', code: 'SECTION 504', value: 'Section 504 Placement' },
@@ -5151,14 +5151,6 @@ async function export_as_csv (separator = "\t") {
 // above steps for all of *those* "Code Set" dropdown items as well.
 //
 //
-//
-//
-// NOTE: DUE TO A FIELD LABEL TRUNCATION ISSUE ON THE UI, SOME DROPDOWNS MAY STILL NEED TO BE SET MANUALLY DESPITE BEING
-//       PROPERLY ACCOUNTED FOR IN THE CODESET MAPPING. THIS IS (SO FAR) ONLY NECESSARY FOR THE FOLLOWING CODESETS:
-//       - "Behavior Categories"
-//       - "Disciplines"
-//       - "Graduation Plan Codes"
-//       - "Program Types"
 //
 //
 // NOTE: CURRENTLY, THE "Languages" CODESET CONTAINS 116 DROPDOWNS, ONLY SOME OF WHICH ARE MAPPABLE (LEAVING 37 UNSET FIELDS).
