@@ -5,7 +5,7 @@
 
 // THE BELOW LIST OF MAPPINGS IS COPY-PASTED FROM THE 'descriptor-mappings.ods' FILE, WHERE THIS IS ACTUALLY *MANAGED*.
 
-const CODESET_MAPPINGS = [
+var CODESET_MAPPINGS = [
   { codeset: 'Incident Location Types', code: 'A', value: 'Auditorium' },
   { codeset: 'Incident Location Types', code: 'B', value: 'Bus stop' },
   { codeset: 'Incident Location Types', code: 'C', value: 'Classroom' },
@@ -1027,6 +1027,7 @@ const CODESET_MAPPINGS = [
   { codeset: 'Course Subject', code: '11698', value: 'Science' },
   { codeset: 'Course Subject', code: '11699', value: 'Science' },
   { codeset: 'Course Subject', code: '11700', value: 'Science' },
+  { codeset: 'Course Subject', code: '117849', value: 'Mathematics' },
   { codeset: 'Course Subject', code: '11823', value: 'Social Sciences and History' },
   { codeset: 'Course Subject', code: '11851', value: 'Social Sciences and History' },
   { codeset: 'Course Subject', code: '11852', value: 'Social Sciences and History' },
@@ -1748,6 +1749,7 @@ const CODESET_MAPPINGS = [
   { codeset: 'Course Subject', code: '31334', value: 'Career and Technical Education' },
   { codeset: 'Course Subject', code: '31335', value: 'Career and Technical Education' },
   { codeset: 'Course Subject', code: '31336', value: 'Career and Technical Education' },
+  { codeset: 'Course Subject', code: '31340', value: 'Other' },
   { codeset: 'Course Subject', code: '31411', value: 'Career and Technical Education' },
   { codeset: 'Course Subject', code: '31412', value: 'Career and Technical Education' },
   { codeset: 'Course Subject', code: '31414', value: 'Career and Technical Education' },
@@ -3047,6 +3049,7 @@ const CODESET_MAPPINGS = [
   { codeset: 'Course Level', code: '11698', value: 'General' },
   { codeset: 'Course Level', code: '11699', value: 'General' },
   { codeset: 'Course Level', code: '11700', value: 'General' },
+  { codeset: 'Course Level', code: '117849', value: 'Career and Technical Education' },
   { codeset: 'Course Level', code: '11823', value: 'General' },
   { codeset: 'Course Level', code: '11851', value: 'General' },
   { codeset: 'Course Level', code: '11852', value: 'General' },
@@ -3768,6 +3771,7 @@ const CODESET_MAPPINGS = [
   { codeset: 'Course Level', code: '31334', value: 'General' },
   { codeset: 'Course Level', code: '31335', value: 'General' },
   { codeset: 'Course Level', code: '31336', value: 'General' },
+  { codeset: 'Course Level', code: '31340', value: 'Other' },
   { codeset: 'Course Level', code: '31411', value: 'General' },
   { codeset: 'Course Level', code: '31412', value: 'General' },
   { codeset: 'Course Level', code: '31414', value: 'General' },
@@ -5024,7 +5028,7 @@ const CODESET_MAPPINGS = [
   { codeset: 'Storecode GradingPeriods', code: '2901-S1', value: 'Third Nine Weeks' },
   { codeset: 'Storecode GradingPeriods', code: '2902-S1', value: 'Third Nine Weeks' },
   { codeset: 'Storecode GradingPeriods', code: '2902-S2', value: 'Fourth Nine Weeks' },
-] // const CODESET_MAPPINGS
+] // var CODESET_MAPPINGS
 
 
 
